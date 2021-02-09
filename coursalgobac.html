@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="bacinfo.css">
+        <title>2eme informatique</title>
+        <link rel="shortcut icon" type="image/x-icon" href="icons8_windows_client_2.ico"/>
+    </head>
+<body>
+    <header>
+        <a href="#pageprincipale" class="logo"><img src="icons8_4.ico"></a>
+        <div class="toggle" onclick="togglemenu();"></div>
+        <ul class="menu">
+            <li>
+                <a href="#pageprincipale">page principale</a>
+            </li>
+            <li>
+
+                <a href="#coursalgo">cours algo</a>
+            </li>
+            <li>
+                <a href="#courspascal">cours pascal</a>
+            </li>
+            <li>
+                <a href="#serie">serie algo et pascal</a>
+            </li>
+            <li>
+                <a href="#TIC">cours TIC</a>
+            </li>
+            <li>
+                <a href="#BD">Basse de donneé</a>
+            </li>
+            <li>
+                <a href="#BAC">bac et correction</a>
+            </li>
+            <li>
+                <a href="#msg">message</a>
+            </li>
+            <li>
+                <a href="#Emploir">Emploi</a>
+            </li>
+            <li>
+                <a href="https://issambenothmen.github.io/etude/connecter.html">déconnecter</a>
+            </li>
+        </ul>
+    </header>
+    <section class="coursalgo" id="coursalgo">
+            <div class="heading">
+                <h2>cours algorithme</h2><br>
+           
+                    <div class="content">
+                        <div class="contentbx">
+                            <img src="icons8_1st.ico">
+                                <h2> <a href="#algo1" class="btn">1ere trimester</a></h2>
+                        </div>
+                        <div class="contentbx">
+                            <img src="icons8_2.ico">
+                                <h2> <a href="#algo2" class="btn">2eme trimester</a></h2>
+                        </div>
+                        <div class="contentbx">
+                            <img src="icons8_3.ico">
+                            <h2> <a href="#algo3" class="btn">3eme trimester</a></h2>
+                        </div>
+                    </div>
+            </div>
+        </section>
+    <section>
+        <section class="algo1" id="algo1">
+          
+            <div class="heading">
+          
+          <div class="content">
+              <table>
+                  <tr>
+                      <td>
+                          <h2>cours algorithme 1eme trimester</h2></tr>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                         <h2> Les enregistrements:</h2>
+                      </td>
+                      <td>
+                          <a href="#"><img src="icons8_download.ico" alt=""></a>
+                      </td>
+                  </tr> <tr>
+                      <td>
+                         <h2> les fichiers :</h2>
+                      </td>
+                      <td>
+                          <a href="#"><img src="icons8_download.ico" alt=""></a>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                         <h2>Les algorithmes de tri :</h2>
+                      </td>
+                      <td>
+                          <a href="#"><img src="icons8_download.ico" alt=""></a>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                         <h2>Les algorithmes récurrents</h2>
+                      </td>
+                      <td>
+                          <a href="#"><img src="icons8_download.ico" alt=""></a>
+                      </td>
+                  </tr>
+                  <tr>
+                    <td>
+                       <h2>Les algorithmes d’arithmétique</h2>
+                    </td>
+                    <td>
+                        <a href="#"><img src="icons8_download.ico" alt=""></a>
+                    </td>
+                </tr>
+              </table> 
+          </div>
+      </section>
+    </section>
+
+    </section>
+    <script type="text/javascript">
+        window.addEventListener('scroll',function(){
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+        function togglemenu(){
+            var menutoggle= document.querySelector('.toggle');
+            menu= document.querySelector('.menu');
+            menutoggle.classList.toggle('active');
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
