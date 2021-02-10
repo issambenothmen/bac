@@ -134,6 +134,7 @@ header .sticky  ul li a{
     display: flex;
     justify-content: space-between;
     color:rgb(255, 255, 255) ;
+    width: 600PX;
 }
 .contentbxw50{
     padding-right: 50px;
@@ -192,7 +193,7 @@ max-width: 100%;
         border: 10px;
         margin: 5px;
         font-size: 30px;
-        width: 250px;
+        width: 400px;
         background-color:transparent;
         position: relative;
         background: rgb(0, 0, 0);
